@@ -1,0 +1,19 @@
+|SCHKUZ002_Lab2_2
+ain => 7408:and1.2
+bin => 7408:and1.3
+cin => 7408:and2.2
+dout <= 7408:and2.1
+
+
+|SCHKUZ002_Lab2_2|7408:and1
+1 <= 4.DB_MAX_OUTPUT_PORT_TYPE
+2 => 4.IN0
+3 => 4.IN1
+
+
+|SCHKUZ002_Lab2_2|7408:and2
+1 <= 4.DB_MAX_OUTPUT_PORT_TYPE
+2 => 4.IN0
+3 => 4.IN1
+
+

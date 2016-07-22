@@ -1,0 +1,25 @@
+LIBRARY altera;
+USE altera.maxplus2.all;
+LIBRARY ieee;
+USE ieee.std_logic_1164.all;
+
+entity SCHKUZ002_Lab2 is
+        port (ain, bin: in STD_LOGIC;
+        dout: out std_logic);
+    end SCHKUZ002_Lab2;
+    
+architecture structure of SCHKUZ002_Lab2 is
+
+component a_7408
+	port (ain: in STD_LOGIC;
+		bin: in STD_LOGIC;
+		dout: out STD_LOGIC);
+end component;
+
+begin
+
+and1: SCHKUZ002_Lab2 port map (ain,bin,dout);
+
+end structure;
+
+

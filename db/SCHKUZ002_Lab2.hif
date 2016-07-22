@@ -1,0 +1,107 @@
+Quartus II
+Version 9.1 Build 304 01/25/2010 Service Pack 1 SJ Web Edition
+44
+3311
+OFF
+OFF
+OFF
+ON
+ON
+ON
+FV_OFF
+Level2
+0
+0
+VRSM_ON
+VHSM_ON
+0
+-- Start Library Paths --
+-- End Library Paths --
+-- Start VHDL Libraries --
+-- End VHDL Libraries --
+# entity
+SCHKUZ002_Lab2
+# storage
+db|SCHKUZ002_Lab2.(0).cnf
+db|SCHKUZ002_Lab2.(0).cnf
+# logic_option {
+AUTO_RAM_RECOGNITION
+ON
+}
+# case_insensitive
+# source_file
+schkuz002_lab2.vhd
+83ea68e372a100b4c375171b1af767
+5
+# internal_option {
+HDL_INITIAL_FANOUT_LIMIT
+OFF
+AUTO_RESOURCE_SHARING
+OFF
+AUTO_RAM_RECOGNITION
+ON
+AUTO_ROM_RECOGNITION
+ON
+}
+# lmf
+c:|altera|91sp1|quartus|lmf|maxplus2.lmf
+a36c8ec425c8a2589af98b2d4daabc3
+# macro_sequence
+
+# end
+# entity
+7408
+# storage
+db|SCHKUZ002_Lab2.(1).cnf
+db|SCHKUZ002_Lab2.(1).cnf
+# case_insensitive
+# source_file
+c:|altera|91sp1|quartus|libraries|others|maxplus2|7408.bdf
+b591965498d8849bf8c2c9a46d5d8f90
+26
+# internal_option {
+BLOCK_DESIGN_NAMING
+AUTO
+}
+# hierarchies {
+7408:and1
+7408:and2
+}
+# macro_sequence
+
+# end
+# entity
+SCHKUZ002_Lab2_2
+# storage
+db|SCHKUZ002_Lab2.(2).cnf
+db|SCHKUZ002_Lab2.(2).cnf
+# logic_option {
+AUTO_RAM_RECOGNITION
+ON
+}
+# case_insensitive
+# source_file
+schkuz002_lab2_2.vhd
+29445552d134ff647f9c492531cc782a
+5
+# internal_option {
+HDL_INITIAL_FANOUT_LIMIT
+OFF
+AUTO_RESOURCE_SHARING
+OFF
+AUTO_RAM_RECOGNITION
+ON
+AUTO_ROM_RECOGNITION
+ON
+}
+# hierarchies {
+|
+}
+# lmf
+c:|altera|91sp1|quartus|lmf|maxplus2.lmf
+a36c8ec425c8a2589af98b2d4daabc3
+# macro_sequence
+
+# end
+# complete
+
